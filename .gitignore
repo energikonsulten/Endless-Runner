@@ -1,0 +1,33 @@
+﻿# Godot 4
+.godot/
+*.translation
+export.cfg
+export_presets.cfg
+*.apk
+*.aab
+*.zip
+builds/*.apk
+builds/*.aab
+android_release.keystore
+*.keystore
+*release*.txt
+
+# Imports / OS
+.import/
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local smoke / editor logs
+godot_*.log
+*.log
+
+# Auto gameplay screenshots (QA)
+screenshots/
